@@ -10,7 +10,7 @@
 #define CsoundMIDI_h
 
 #import "csound.h"
- 
+
 @interface CsoundMIDI : NSObject
 +(void)setMidiInCallbacks:(CSOUND *)csound;
 @end
